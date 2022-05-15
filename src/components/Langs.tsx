@@ -5,7 +5,11 @@ export const Langs: React.FC = () => {
   return (
     <div className="Langs">
       {langs.map((language) => (
-        <LangDescription name={language.name} image={language.image} />
+        <LangDescription
+          name={language.name}
+          image={language.image}
+          key={language.name}
+        />
       ))}
     </div>
   );
