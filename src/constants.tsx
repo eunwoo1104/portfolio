@@ -82,34 +82,48 @@ export type projectURL = {
 export type project = {
   // [index: string]: string;
   name: string;
-  url: projectURL;
+  url: Array<projectURL>;
   description: string;
 };
 export const projects: Array<project> = [
   {
     name: "dico-api",
-    url: {
-      id: "github",
-      value: "https://github.com/dico-api/dico",
-    },
+    url: [
+      {
+        id: "github",
+        value: "https://github.com/dico-api",
+      },
+    ],
     description:
       "Discord API 전체를 래핑하는 프로젝트로, 현재 메인테이너로 활동하고 있습니다.",
   },
   {
     name: "한국 디스코드 리스트",
-    url: {
-      id: "globe",
-      value: "https://koreanbots.dev",
-    },
+    url: [
+      {
+        id: "github",
+        value: "https://github.com/koreanbots",
+      },
+      {
+        id: "globe",
+        value: "https://koreanbots.dev",
+      },
+    ],
     description:
       "국내 디스코드 봇 및 서버를 찾아볼 수 있는 웹사이트로, 현재 팀장으로 활동하고 있습니다.",
   },
   {
     name: "interactions.py",
-    url: {
-      id: "github",
-      value: "https://github.com/interactions-py/library",
-    },
+    url: [
+      {
+        id: "github",
+        value: "https://github.com/interactions-py/library",
+      },
+      {
+        id: "globe",
+        value: "https://interactions.i0.gg/",
+      },
+    ],
     description:
       "Discord의 Interaction을 쉽게 다룰 수 있도록 만들어주는 Python 라이브러리로, 1대 메인테이너였지만 지금은 여기서는 활동하지 않고 있습니다.",
   },

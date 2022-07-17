@@ -10,7 +10,7 @@ export const Projects: React.FC = () => {
           name={projectItem.name}
           url={projectItem.url}
           description={projectItem.description}
-          key={projectItem.url.value}
+          key={projectItem.name}
         />
       ))}
     </div>
@@ -22,14 +22,17 @@ const ProjectItem: React.FC<project> = (projectData: project) => {
     <div className="ProjectItem">
       <h4>
         {projectData.name}
-        <a
-          href={projectData.url.value}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {"  "}
-          {icons[projectData.url.id]}
-        </a>
+        {projectData.url.map((projectUrl) => (
+          <a
+            href={projectUrl.value}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={projectUrl.value}
+          >
+            {"  "}
+            {icons[projectUrl.id]}
+          </a>
+        ))}
       </h4>
 
       <p>{projectData.description}</p>
