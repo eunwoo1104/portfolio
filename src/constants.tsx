@@ -87,6 +87,21 @@ export type project = {
 };
 export const projects: Array<project> = [
   {
+    name: "CodeNU",
+    url: [
+      {
+        id: "github",
+        value: "https://github.com/codenu",
+      },
+      {
+        id: "globe",
+        value: "https://codenu.github.io",
+      },
+    ],
+    description:
+      '"당신을 위해, 항상 새롭게." 라는 슬로건을 바탕으로 활동하고 있는 개발팀으로, 현재 팀장으로 활동하고 있습니다.',
+  },
+  {
     name: "dico-api",
     url: [
       {
