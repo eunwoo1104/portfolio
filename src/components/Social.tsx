@@ -9,6 +9,7 @@ export const Social: React.FC = () => {
         <SocialItem
           id={socialItem.id}
           value={socialItem.value}
+          name={socialItem.name}
           key={socialItem.id}
         />
       ))}
@@ -17,26 +18,10 @@ export const Social: React.FC = () => {
 };
 
 const SocialItem: React.FC<social> = (socialItem) => {
-  let url: string;
-  let desc: string;
-  const types: Record<string, string> = {
-    github: "GitHub",
-    blog: "Blog",
-  };
-  if (socialItem.id === "email") {
-    url = `mailto:${socialItem.value}`;
-    desc = socialItem.value;
-  } else if (socialItem.id === "discord") {
-    url = socialItem.value;
-    desc = "eunwoo1104#9600";
-  } else {
-    url = socialItem.value;
-    desc = types[socialItem.id];
-  }
   return (
     <div className="SocialItem">
-      <a href={url} target="_blank" rel="noopener noreferrer">
-        {icons[socialItem.id]} {desc}
+      <a href={socialItem.value} target="_blank" rel="noopener noreferrer">
+        {icons[socialItem.id]} {socialItem.name}
       </a>
     </div>
   );

@@ -1,5 +1,5 @@
 import { MdEmail } from "react-icons/md";
-import { FaDiscord, FaGithub, FaGlobe } from "react-icons/fa";
+import { FaDiscord, FaGithub, FaGlobe, FaInstagram } from "react-icons/fa";
 import React from "react";
 
 export type lang = {
@@ -29,27 +29,38 @@ export type social = {
   [index: string]: string;
   id: string;
   value: string;
+  name: string;
 };
 export const socials: Array<social> = [
   {
     id: "email",
-    value: "choi@eunwoo.dev",
+    value: "mailto:choi@eunwoo.dev",
+    name: "choi@eunwoo.dev",
   },
   {
     id: "email",
-    value: "eunwoo@codenu.kr",
+    value: "mailto:eunwoo@codenu.kr",
+    name: "eunwoo@codenu.kr",
   },
   {
     id: "github",
     value: "https://github.com/eunwoo1104",
+    name: "GitHub",
   },
   {
     id: "blog",
     value: "https://blog.eunwoo.dev/",
+    name: "Blog",
   },
   {
     id: "discord",
     value: "https://discord.com/users/288302173912170497",
+    name: "eunwoo1104#9600",
+  },
+  {
+    id: "instagram",
+    value: "https://www.instagram.com/eunwoo1104_dev/",
+    name: "@eunwoo1104_dev",
   },
 ];
 
@@ -59,6 +70,7 @@ export const icons: Record<string, JSX.Element> = {
   blog: <FaGlobe />,
   discord: <FaDiscord />,
   globe: <FaGlobe />,
+  instagram: <FaInstagram />,
 };
 
 export type projectURL = {
@@ -100,5 +112,41 @@ export const projects: Array<project> = [
     },
     description:
       "Discord의 Interaction을 쉽게 다룰 수 있도록 만들어주는 Python 라이브러리로, 1대 메인테이너였지만 지금은 여기서는 활동하지 않고 있습니다.",
+  },
+];
+
+export type tech = {
+  name: string;
+  image: string;
+};
+
+export const techs: Array<tech> = [
+  {
+    name: "React | React Native",
+    image: "react.png",
+  },
+  {
+    name: "MariaDB",
+    image: "mariadb.png",
+  },
+  {
+    name: "MongoDB",
+    image: "mongodb.svg",
+  },
+  {
+    name: "Amazon Web Service",
+    image: "aws.jpg",
+  },
+  {
+    name: "Qt (PyQt | PySide)",
+    image: "qt.png",
+  },
+  {
+    name: "Git",
+    image: "git.png",
+  },
+  {
+    name: "Docker",
+    image: "docker.png",
   },
 ];

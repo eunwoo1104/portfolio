@@ -98,3 +98,17 @@
   color: white;
   text-decoration: none;
 }
+
+.Techs {
+  text-align: left;
+}
+
+.TechDesc {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.TechDesc-text {
+  padding-left: 1%;
+}
