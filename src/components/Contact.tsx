@@ -66,7 +66,7 @@ export const Contact: React.FC = () => (
             <motion.div
               initial={{ opacity: 0, x: -15 }}
               animate={inView ? { opacity: 1, x: 0 } : { opacity: 0 }}
-              transition={{ duration: 0.5, delay: 0.5 + index * 0.5 }}
+              transition={{ duration: 0.5, delay: 0.5 + index * 0.3 }}
               ref={ref}
               key={social.url}
             >
