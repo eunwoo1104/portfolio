@@ -1,23 +1,16 @@
 import React from "react";
-import "./App.css";
 import { Hello } from "./components/Hello";
-import { About } from "./components/About";
-import { Social } from "./components/Social";
-import { Projects } from "./components/Projects";
+import { Intro } from "./components/Intro";
+import { Resume } from "./components/Resume";
+import { Contact } from "./components/Contact";
 
-function App() {
-  return (
-    <div className="App">
-      <div className="Head">
-        <Hello />
-      </div>
-      <div className="Content">
-        <About />
-        <Projects />
-        <Social />
-      </div>
-    </div>
-  );
-}
+const App: React.FC = () => (
+  <div className="w-full min-h-screen bg-neutral-900 flex flex-col px-default">
+    <Hello />
+    <Intro />
+    <Resume />
+    <Contact />
+  </div>
+);
 
 export default App;
