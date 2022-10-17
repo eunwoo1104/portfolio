@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export const Hello: React.FC = () => (
-  <div className="flex flex-col h-screen justify-center items-center space-y-1.5">
+  <div className="flex flex-col h-screen justify-center items-center space-y-1.5 snap-center">
     <motion.div
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}

@@ -58,7 +58,7 @@ export const Intro: React.FC = () => {
   return (
     <InView>
       {({ ref, inView }) => (
-        <div className="flex flex-col min-h-screen justify-center space-y-8">
+        <div className="flex flex-col min-h-screen justify-center space-y-8 snap-center">
           <div className="flex flex-col space-y-4">
             <motion.div
               initial={{ opacity: 0, y: 15 }}

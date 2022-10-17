@@ -51,7 +51,7 @@ const socials: Array<Social> = [
 export const Contact: React.FC = () => (
   <InView>
     {({ ref, inView }) => (
-      <div className="flex flex-col py-36 justify-center space-y-2">
+      <div className="flex flex-col py-36 justify-center space-y-2 snap-end">
         <motion.div
           initial={{ opacity: 0, y: 15 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0 }}
