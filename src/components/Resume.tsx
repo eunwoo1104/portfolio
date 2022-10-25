@@ -84,7 +84,7 @@ const experiences: Array<Experience> = [
       },
     ],
     position: "봇 개발자 (2021.12.12 ~)",
-    description: `사용자의 편의성을 우선으로 생각하는 봇을 만듭니다.`,
+    description: `Project End To End; 사용자의 편의성을 우선으로 생각하는 봇을 만듭니다.`,
   },
   {
     name: "interactions.py",
@@ -97,7 +97,7 @@ const experiences: Array<Experience> = [
     ],
     position:
       "설립자, 초기 개발자 (2020.12.11 ~ 2021.06.05), 한국어 커뮤니티 관리자 (2020.12.11 ~ 2021.09.04)",
-    description: `interaction.py 라이브러리를 유지보수하고, 라이브러리 사용자들에게 개발 괸련 도움을 줍니다.`,
+    description: `interaction.py 라이브러리를 유지보수하고, 라이브러리 사용자들에게 개발 관련 도움을 줍니다.`,
   },
 ];
 
