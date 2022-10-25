@@ -74,7 +74,7 @@ export const Contact: React.FC = () => (
                 href={social.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-row items-center space-x-1"
+                className="flex flex-row items-center space-x-1 hover:opacity-75"
               >
                 {icons[social.type]}
                 <p>{social.name}</p>

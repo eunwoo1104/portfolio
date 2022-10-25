@@ -58,7 +58,7 @@ export const Intro: React.FC = () => {
   return (
     <InView>
       {({ ref, inView }) => (
-        <div className="flex flex-col min-h-screen justify-center space-y-8 snap-center">
+        <div className="flex flex-col py-36 justify-center space-y-8 snap-center">
           <div className="flex flex-col space-y-4">
             <motion.div
               initial={{ opacity: 0, y: 15 }}
@@ -102,7 +102,7 @@ export const Intro: React.FC = () => {
             className="flex flex-col space-y-4"
           >
             <button
-              className="flex flex-row text-white text-4xl font-bold"
+              className="flex flex-row text-white text-4xl font-bold hover:opacity-75"
               onClick={() => setLangCardOpen(!langCardOpen)}
             >
               {langCardOpen ? <BiChevronDown /> : <BiChevronRight />}
@@ -126,7 +126,7 @@ export const Intro: React.FC = () => {
             className="flex flex-col space-y-5"
           >
             <button
-              className="flex flex-row text-white text-4xl font-bold"
+              className="flex flex-row text-white text-4xl font-bold hover:opacity-75"
               onClick={() => setStackCardOpen(!stackCardOpen)}
             >
               {stackCardOpen ? <BiChevronDown /> : <BiChevronRight />}

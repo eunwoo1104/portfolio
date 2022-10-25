@@ -202,7 +202,7 @@ export const Resume: React.FC = () => (
                         href={link.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex flex-row items-center space-x-0.5"
+                        className="flex flex-row items-center space-x-0.5 hover:opacity-75"
                         key={link.url}
                       >
                         {icons[link.id]}
@@ -257,7 +257,7 @@ export const Resume: React.FC = () => (
                         href={link.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex flex-row items-center space-x-0.5"
+                        className="flex flex-row items-center space-x-0.5 hover:opacity-75"
                         key={link.url}
                       >
                         {icons[link.id]}
