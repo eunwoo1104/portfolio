@@ -150,7 +150,7 @@ const projects: Array<Project> = [
 ];
 
 export const Resume: React.FC = () => (
-  <div className="flex flex-col min-h-screen justify-center space-y-8 py-36">
+  <div className="flex flex-col min-h-screen justify-center space-y-8 py-36 box-content">
     <InView>
       {({ ref, inView }) => (
         <motion.div
