@@ -24,7 +24,7 @@ const stacks: { [index: string]: string } = {
   react: "React / React Native",
   next: "Next.js",
   flask: "Flask",
-  sanic: "Sainc",
+  sanic: "Sanic",
   mariadb: "MariaDB / MySQL",
   docker: "Docker",
   aws: "Amazon Web Service",

@@ -70,6 +70,18 @@ const experiences: Array<Experience> = [
     description: `온라인 채팅 플랫폼인 디스코드에서 사용할 수 있는 챗봇 및 커뮤니티 서버를 홍보할 수 있는 서비스를 제공하고 있으며, 현재 622개 이상의 챗봇 및 552개 이상의 서버가 사용하고 있습니다.`,
   },
   {
+    name: "GDSC Sahmyook University",
+    links: [
+      {
+        name: "홈페이지",
+        url: "https://gdsc-syu-welcome.pages.dev/",
+        id: "external",
+      },
+    ],
+    position: "Core Member (2023.09.01 ~)",
+    description: `GDSC는 "Google Developer Student Club"의 약자로 구글에서 지원하는 글로벌 대학생 개발자 커뮤니티입니다.`,
+  },
+  {
     name: "Project eTe",
     links: [
       {
