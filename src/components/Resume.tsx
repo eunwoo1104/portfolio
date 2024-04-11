@@ -66,7 +66,7 @@ const experiences: Array<Experience> = [
       },
     ],
     position:
-      "팀장 (2022.03.20 ~), 공식봇 개발자 (2021.08.21 ~), 개발 부서장 (2021.12.14 ~ 2022.03.20), 봇 리뷰어 1기 (2021.02.13 ~)",
+      "팀장 (2022.03.20 ~), 공식봇 개발자 (2021.08.21 ~)",
     description: `온라인 채팅 플랫폼인 디스코드에서 사용할 수 있는 챗봇 및 커뮤니티 서버를 홍보할 수 있는 서비스를 제공하고 있으며, 현재 622개 이상의 챗봇 및 552개 이상의 서버가 사용하고 있습니다.`,
   },
   {
@@ -80,6 +80,23 @@ const experiences: Array<Experience> = [
     ],
     position: "Core Member (2023.09.01 ~)",
     description: `GDSC는 "Google Developer Student Club"의 약자로 구글에서 지원하는 글로벌 대학생 개발자 커뮤니티입니다.`,
+  },
+  {
+    name: "COD36EEK",
+    links: [
+      {
+        name: "홈페이지",
+        url: "https://hello.cod36eek.kr/",
+        id: "external",
+      },
+      {
+        name: "CTFtime",
+        url: "https://ctftime.org/team/270620",
+        id: "external",
+      },
+    ],
+    position: "부회장 (2024.03.01 ~), 임원 (2023.09.01 ~)",
+    description: `화이트햇을 표방하는 삼육대학교의 정보보안 동아리, 코드긱(COD36EEK)입니다. 모의 해킹, 공부 및 코딩, 온/오프라인 CTF(해킹대회) 참여 등을 진행합니다.`,
   },
   {
     name: "Project eTe",
@@ -108,7 +125,7 @@ const experiences: Array<Experience> = [
       },
     ],
     position:
-      "설립자, 초기 개발자 (2020.12.11 ~ 2021.06.05), 한국어 커뮤니티 관리자 (2020.12.11 ~ 2021.09.04)",
+      "설립자, 초기 개발자 (2020.12.11 ~ 2021.06.05)",
     description: `interaction.py 라이브러리를 유지보수하고, 라이브러리 사용자들에게 개발 관련 도움을 줍니다.`,
   },
 ];
