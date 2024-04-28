@@ -80,7 +80,7 @@ export const Intro: React.FC = () => {
                 다양한 분야에 관심이 많고, 새로운 시도를 좋아해요.
               </p>
             </motion.div>
-            <div className="flex flex-row space-x-3">
+            <div className="flex flex-row flex-wrap">
               {tags.map((tag, index) => (
                 <motion.div
                   initial={{ opacity: 0 }}
