@@ -27,11 +27,6 @@ const socials: Array<Social> = [
     type: "email",
   },
   {
-    name: "eunwoo@codenu.kr",
-    url: "mailto:eunwoo@codenu.kr",
-    type: "email",
-  },
-  {
     name: "@eunwoo1104",
     url: "https://github.com/eunwoo1104",
     type: "github",

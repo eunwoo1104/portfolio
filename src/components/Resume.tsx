@@ -35,23 +35,6 @@ interface Project {
 
 const experiences: Array<Experience> = [
   {
-    name: "CodeNU",
-    links: [
-      {
-        name: "홈페이지",
-        url: "https://codenu.github.io/",
-        id: "external",
-      },
-      {
-        name: "GitHub",
-        url: "https://github.com/codenu/",
-        id: "github",
-      },
-    ],
-    position: "팀장 (2020.04.13 ~)",
-    description: `사용자를 위해 새로운 도전을 멈추지 않는다는 의미의 "당신을 위해, 항상 새롭게."라는 슬로건을 바탕으로, 온라인 채팅 서비스인 디스코드에서 편리하게 사용할 수 있는 챗봇을 개발하는 팀입니다.`,
-  },
-  {
     name: "한국 디스코드 리스트",
     links: [
       {
@@ -70,6 +53,23 @@ const experiences: Array<Experience> = [
     description: `온라인 채팅 플랫폼인 디스코드에서 사용할 수 있는 챗봇 및 커뮤니티 서버를 홍보할 수 있는 서비스를 제공하고 있으며, 현재 622개 이상의 챗봇 및 552개 이상의 서버가 사용하고 있습니다.`,
   },
   {
+    name: "CodeNU",
+    links: [
+      {
+        name: "홈페이지",
+        url: "https://codenu.kr/",
+        id: "external",
+      },
+      {
+        name: "GitHub",
+        url: "https://github.com/codenu/",
+        id: "github",
+      },
+    ],
+    position: "팀장 (2020.04.13 ~)",
+    description: `사용자를 위해 새로운 도전을 멈추지 않는다는 의미의 "당신을 위해, 항상 새롭게."라는 슬로건을 바탕으로, 온라인 채팅 서비스인 디스코드에서 편리하게 사용할 수 있는 챗봇을 개발하는 팀입니다.`,
+  },
+  {
     name: "GDSC Sahmyook University",
     links: [
       {
@@ -78,7 +78,7 @@ const experiences: Array<Experience> = [
         id: "external",
       },
     ],
-    position: "Core Member (2023.09.01 ~)",
+    position: "Core Member (2023.09.01 ~ 2025.02.28)",
     description: `GDSC는 "Google Developer Student Club"의 약자로 구글에서 지원하는 글로벌 대학생 개발자 커뮤니티입니다.`,
   },
   {
@@ -95,7 +95,7 @@ const experiences: Array<Experience> = [
         id: "external",
       },
     ],
-    position: "부회장 (2024.03.01 ~), 임원 (2023.09.01 ~)",
+    position: "임원 (2023.09.01 ~ 2024.08.31)",
     description: `화이트햇을 표방하는 삼육대학교의 정보보안 동아리, 코드긱(COD36EEK)입니다. 모의 해킹, 공부 및 코딩, 온/오프라인 CTF(해킹대회) 참여 등을 진행합니다.`,
   },
   {
@@ -114,19 +114,6 @@ const experiences: Array<Experience> = [
     ],
     position: "봇 개발자 (2021.12.12 ~)",
     description: `Project End To End; 사용자의 편의성을 우선으로 생각하는 봇을 만듭니다.`,
-  },
-  {
-    name: "interactions.py",
-    links: [
-      {
-        name: "GitHub",
-        url: "https://github.com/interactions-py",
-        id: "github",
-      },
-    ],
-    position:
-      "설립자, 초기 개발자 (2020.12.11 ~ 2021.06.05)",
-    description: `interaction.py 라이브러리를 유지보수하고, 라이브러리 사용자들에게 개발 관련 도움을 줍니다.`,
   },
 ];
 
